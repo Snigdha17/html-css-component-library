@@ -3,6 +3,7 @@
 :root {
   --primary-color: orange;
   --secondary-color: blue;
+  --dark-gray: gray;
 }
 
 body {
@@ -76,4 +77,27 @@ hr {
 .nav-pills {
   color: white;
   text-align: right;
+}
+
+/** Header **/
+
+.hero {
+  padding: 2rem;
+}
+
+.hero .hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  font-size: 2rem;
+  color: var(--dark-gray);
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.hero .hero-heading .heading-inverted {
+  color: var(--primary-color);
 }
