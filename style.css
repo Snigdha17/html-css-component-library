@@ -39,3 +39,41 @@ body {
   background-color: white;
   border: 1px solid var(--primary-color);
 }
+
+hr {
+  margin: 2rem 0rem;
+}
+
+/** lists **/
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.navigation {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.navigation .link {
+  color: white;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.nav-pills {
+  color: white;
+  text-align: right;
+}
